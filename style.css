@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #CCC;
+}
+
+#plateau {
+	margin: 0px auto;
+	width: 600px;
+}
+
+#container {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+
+#container div {
+	float: left;
+	width: 70px;
+	height: 95px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.8);
+    background-image: url("http://www.iro.umontreal.ca/~reid/ift1146/E06/classic-cards/b1fv.png");
+    background-repeat: no-repeat;
+	/* z-index: 4; */
+}
+#container div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+/* #newGame {
+    text-align: center;
+	margin: 20px;
+	display: block;
+} */
+
+#newGame {
+    display: block;
+	text-transform: uppercase;
+	/* background: #EE872A; */
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+    cursor: pointer;
+}
